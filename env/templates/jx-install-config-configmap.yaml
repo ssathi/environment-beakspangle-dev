@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQAkwf17MyeQM+mIGDYkfawTANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRlOTIwM2IwZS1kZGNkLTQzNDMtODcyOC03NzhjNzg3ZjJkNWQw
+    HhcNMTkwNTExMTA1MDQ0WhcNMjQwNTA5MTE1MDQ0WjAvMS0wKwYDVQQDEyRlOTIw
+    M2IwZS1kZGNkLTQzNDMtODcyOC03NzhjNzg3ZjJkNWQwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDJkYi7jA2XZxsbHhuXcHDENmqJcYn9pTsSUMzxop70
+    SoNMc6ADkWRYoWiQTYNKqgco8LDB1pBPbjrXCFou3qL+KBECOH4KEYIMYIxbTWqO
+    Vfusc8pcGTfzvUjndV8Wm8IOpVtLYlecKgQcQDVFZ7JnM57jLJkG5bBDt96XBXPT
+    OmT5FczfjGGjpsnrchVQNH8v5NYXkP9s2w/MaeHWE1oZJFyJVyXWcSgz+POiHwhE
+    Mbi793SDXo5+ygY+u86Ixx99uqzxJpil4wX/5IdkXl5er/l+C/BKN6Bv62DtBtWh
+    sl9PwO3srvHDgsCQRTOCPIIej25p9SyrPCGhr0AmlajbAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDH
+    jKphPipzm8ufbQakXPLE80pn1i4Qna8iHul0aVSG4dxUz9K+++v6zCyrkbPH8G73
+    WDXQEVh8nLAFnH/f1Hn8Nc91CRcJFzoR/1CizJYSDv5vOl/yiiniJhlhwVIBmvQ1
+    XhwgNWc3J8svtVjv7SI7cjPGId8UTXSkIgQKLqubvTKn6maWsEYmNYZrDJeNVbTk
+    exXdupFng3hkbO+vESicPw1Hov1gcmpFYCrJ4rhjF5EKbsV4QVaO3f1N6WVNiFdU
+    Q4iXvjlNd4l4f2R3WTE08iIFK/5aJrNQha1vAGPgKPnOlUVHj3Yl5cCqagY80qCS
+    ztroHmYksui5wQ/hcn+1
+    -----END CERTIFICATE-----
+  clusterName: beakspangle
+  jx-install-version: 2.0.116
+  kubeProvider: gke
+  projectID: buoyant-airport-231116
+  region: ""
+  secretsLocation: vault
+  server: https://34.80.254.40
+  systemVaultName: jx-vault-beakspangle
+  zone: asia-east1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
